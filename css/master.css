@@ -1,0 +1,85 @@
+body {
+    background-image: url(../img/wallpaper.jpg);
+}
+
+#container {
+    margin: auto;
+    width: 85%;
+}
+
+
+/* Css relativo all'header */
+
+#gmail-icon img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#white-text {
+    color: white;
+    font-size: 25px;
+}
+
+#white-text-unread {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#number {
+    border-radius: 50%;
+    background-color: orange;
+    padding: 13px;
+}
+
+
+/* Css del main */
+
+.read-email {
+    background-color: lightgrey;
+    border: black solid 1px;
+}
+
+.email-title {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.email-text {
+    color: grey;
+    vertical-align: middle;
+}
+
+.star {
+    vertical-align: middle;
+}
+
+.check {
+    vertical-align: middle;
+}
+
+.unread-email {
+    background-color: white;
+    border: black solid 1px;
+}
+
+
+/* Css relativo al footer */
+
+footer {
+    text-align: center;
+}
+
+#footer-part1 {
+    color: white;
+    font-size: 25px;
+}
+
+#footer-part2 {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
